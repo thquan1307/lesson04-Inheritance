@@ -1,5 +1,7 @@
 package quan.dev;
 
-public class Shape {
+public abstract class Shape {
 	protected String name;
+	
+	public abstract double dienTich();
 }
